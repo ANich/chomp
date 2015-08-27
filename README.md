@@ -76,5 +76,8 @@ composer test
 #### Contributing
 Please see [CONTRIBUTING](CONTRIBUTING.md)
 
+#### Changelog
+Please see [CHANGELOG](CHANGELOG.md)
+
 #### License
 This library is licensed under the MIT license. Please see [LICENSE](LICENSE.md)
