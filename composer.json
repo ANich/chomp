@@ -1,0 +1,33 @@
+{
+    "name": "anich/chomp",
+    "description": "A framework for consumption only REST APIs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Nicholson",
+            "email": "alexj.nich@hotmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.6.*",
+        "mockery/mockery": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "ANich\\Chomp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ANich\\Chomp\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "scripts": {
+        "test": "phpunit"
+    }
+}
