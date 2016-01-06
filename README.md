@@ -6,7 +6,7 @@ Chomp is a Library for extending consumption-only RESTful APIs.
 
 #### Installation via Composer
 ``` 
-$ composer require anich/chomp
+$ composer require anich/chomp dev-master
 ```
 
 #### Basic Usage
