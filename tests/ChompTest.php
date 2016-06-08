@@ -22,7 +22,7 @@ class ChompTest extends PHPUnit
 
     public function testChompCanCreateResource()
     {
-        $resource = $this->chomp->getResource('\ANich\Chomp\Tests\TestResource', '1');
+        $resource = $this->chomp->get('\ANich\Chomp\Tests\TestResource', '1');
         $this->assertInstanceOf('\ANich\Chomp\Tests\TestResource', $resource);
     }
 }

@@ -27,7 +27,7 @@ class YourResource extends \ANich\Chomp\Resource
 require('vendor/autoload.php');
 
 $chomp = new Chomp;
-$resource = $chomp->getResource('\Your\Namespace\YourResource', '1');
+$resource = $chomp->get('\Your\Namespace\YourResource', '1');
 
 echo $resource->id; // 1
 echo $resource->title; // Lorem Title.
@@ -57,7 +57,7 @@ class YourResource extends \ANich\Chomp\Resource
 require('vendor/autoload.php');
 
 $chomp = new Chomp;
-$resource = $chomp->getResource('\Your\Namespace\YourResource', '1');
+$resource = $chomp->get('\Your\Namespace\YourResource', '1');
 
 echo $resource->title; // Title: Lorem Title.
 ```
